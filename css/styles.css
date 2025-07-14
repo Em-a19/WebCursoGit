@@ -139,7 +139,7 @@ h1,h2,h3{
     color:var(--oscuro) ;
 }
 
-/*Hero*/
+/*ACA SE COLOCA LA IMAGEN DEL INICIO Hero*/
 .hero{
     background-image: url(../img/DEV.jpg) ;
     background-repeat: no-repeat;
