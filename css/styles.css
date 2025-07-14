@@ -3,8 +3,8 @@
     --oscuro: #212121;
     --primario:#ffc107;
     --secundario:#0000a7;
-    --gris:#757575;  
-    --gris-oscuro: #293241;
+    --gris:#75757570;  
+    --azul-oscuro: #031638e3;
 }
 /**Globales**/
 html{
@@ -28,7 +28,7 @@ html{
 body{
     font-size:16px ; /*1rem = 10px*/
     font-family: "Krub", serif;
-    background-image: linear-gradient(to top,var(--blanco) 0%,var(--gris-oscuro) 100%);
+    background-image: linear-gradient(to top,var(--blanco) 0%,var(--azul-oscuro) 100%);
 }
 .contenedor{
     max-width:120rem;
