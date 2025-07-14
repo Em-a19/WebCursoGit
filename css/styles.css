@@ -1,9 +1,9 @@
 :root{
     --blanco:#ffffff;
     --oscuro: #212121;
-    --primario:#ffc107;
+    --primario:#ff0707;
     --secundario:#0000a7;
-    --gris:#75757570;  
+    --aqua:#1bb9d5;  
     --rojo-oscuro: #380303e3;
 }
 /**Globales**/
@@ -141,7 +141,7 @@ h1,h2,h3{
 
 /*ACA SE COLOCA LA IMAGEN DEL INICIO Hero*/
 .hero{
-    background-image: url(../img/hero.jpg) ;
+    background-image: url(../img/DEV.jpg) ;
     background-repeat: no-repeat;
     background-size: cover;
     height: 450px;
@@ -187,7 +187,7 @@ h1,h2,h3{
 }
 
 .servicio h3 {
-    color:orange;
+    color:red;
     font-weight:400 ; /*igual a normal*/
 }
 .servicio p{
@@ -206,7 +206,7 @@ h1,h2,h3{
 
 /*contacto*/
 .formulario{
-    background-color: var(--gris);
+    background-color: var(--aqua);
     width: min( 70rem , 100%); /*utiliza el valor mas pequeño*/
     margin: 0 auto;
     padding: 2rem;   /*para colocar espacio en todas las direccines*/
