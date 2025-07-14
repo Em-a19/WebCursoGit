@@ -141,7 +141,7 @@ h1,h2,h3{
 
 /*ACA SE COLOCA LA IMAGEN DEL INICIO Hero*/
 .hero{
-    background-image: url(../img/DEV.jpg) ;
+    background-image: url(../img/hero.jpg) ;
     background-repeat: no-repeat;
     background-size: cover;
     height: 450px;
