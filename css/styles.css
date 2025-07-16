@@ -1,10 +1,10 @@
 :root{
     --blanco:#ffffff;
     --oscuro: #212121;
-    --primario:#6e0808;
-    --secundario:#0000a7;
-    --aqua:#1bb9d5;  
-    --gris: #3b3737b8;
+    --primario:#ffc107;
+    --secundario:#0097a7;
+    --gris:#757575;  
+    --gris-oscuro: #293241;
 }
 /**Globales**/
 html{
@@ -28,7 +28,7 @@ html{
 body{
     font-size:16px ; /*1rem = 10px*/
     font-family: "Krub", serif;
-    background-image: linear-gradient(to top,var(--blanco) 0%,var(--gris) 100%);
+    background-image: linear-gradient(to top,var(--blanco) 0%,var(--gris-oscuro) 100%);
 }
 .contenedor{
     max-width:120rem;
@@ -139,7 +139,7 @@ h1,h2,h3{
     color:var(--oscuro) ;
 }
 
-/*ACA SE COLOCA LA IMAGEN DEL INICIO Hero*/
+/*Hero*/
 .hero{
     background-image: url(../img/DEV.jpg) ;
     background-repeat: no-repeat;
@@ -187,7 +187,7 @@ h1,h2,h3{
 }
 
 .servicio h3 {
-    color:red;
+    color:orange;
     font-weight:400 ; /*igual a normal*/
 }
 .servicio p{
@@ -206,7 +206,7 @@ h1,h2,h3{
 
 /*contacto*/
 .formulario{
-    background-color: var(--aqua);
+    background-color: var(--gris);
     width: min( 70rem , 100%); /*utiliza el valor mas pequeño*/
     margin: 0 auto;
     padding: 2rem;   /*para colocar espacio en todas las direccines*/
