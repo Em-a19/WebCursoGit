@@ -120,7 +120,7 @@ h1,h2,h3{
 @media (min-width:768px ) {
     .navegacion-principal{
         flex-direction: row;
-        justify-content: space-between;
+        justify-content:center ;
 
     }
 }
