@@ -2,7 +2,7 @@
     --blanco:#ffffff;
     --oscuro: #212121;
     --primario:#ffc107;
-    --secundario:#0097a7;
+    --secundario:#b91282;
     --gris:#757575;  
     --gris-oscuro: #293241;
 }
@@ -120,7 +120,7 @@ h1,h2,h3{
 @media (min-width:768px ) {
     .navegacion-principal{
         flex-direction: row;
-        justify-content: space-between;
+        justify-content:center ;
 
     }
 }
