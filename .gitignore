@@ -1,5 +1,5 @@
 #imagnes que no se deben agregar
-* .jpg
+*.jpg
 
 #llaves .pem
-* .pem
+*.pem
